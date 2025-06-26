@@ -3,8 +3,12 @@
     }
     .tarjeta{
         border: 4px solid black;
-        margin: 200px;
-        padding: 100px;
+        margin:0;
+        padding: 0s;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        margin: auto;
     }
     .uno:hover{
     background-color: black;
@@ -20,4 +24,8 @@
         background-color: aliceblue;
         color:black;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    img{
+        width: 150px;
+        height: 150px;
     }

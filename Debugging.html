@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<p>🥇 Paso 1: Entender qué es "debugging"
+Qué es:
+"Debugging" es el proceso de encontrar, entender y corregir errores (bugs) en tu código.
+
+Tipos de errores comunes:
+
+❌ Sintaxis (ej: olvidaste cerrar una llave {)
+
+🧠 Lógicos (ej: tu código corre pero no hace lo que esperás)
+
+⚠️ De red (ej: imagen no carga)
+
+🌀 Estilo/CSS (ej: diseño roto)</p>
+
+<p>🥈 Paso 2: Conocer tu herramienta de debugging: Chrome DevTools
+🔗 DevDocs: Chrome DevTools
+
+Abre Chrome y tu página web.
+
+Presioná F12 o clic derecho > "Inspeccionar".
+
+Familiarizate con estas pestañas:
+
+Elements: Editar HTML/CSS en vivo.
+
+Console: Ver errores, usar console.log().
+
+Sources: Debugger JS, breakpoints.
+
+Network: Ver recursos cargados o fallidos.
+
+Performance: Analizar velocidad y cuellos de botella.
+
+📌 Ejercicio: Abre DevTools en cualquier sitio web y explorá estas pestañas. Es como un laboratorio.</p>
+<p>
+🥉 Paso 3: Debugging con console.log() (tu mejor amigo)
+🔗 DevDocs: console.log() y más
+
+Qué hacer:
+
+Insertá console.log("Acá llegué") en tu JavaScript para rastrear el flujo del código.
+
+Usá console.log(unaVariable) para ver qué valor tiene.
+
+📌 Ejercicio: Crea una función simple y usá varios console.log() para ver paso por paso qué ocurre.
+
+</p>
+<p>
+🏃 Paso 4: Usar el “debugger” en DevTools (modo avanzado)
+Abrí DevTools > pestaña Sources.
+
+Buscá tu archivo JS.
+
+Hacé clic a la izquierda del número de línea para poner un breakpoint.
+
+Recargá la página y el código se pausará ahí.
+
+Usá los botones de reproducción/paso para analizar paso a paso.
+
+📌 Ejercicio: Creá una función que manipule el DOM y poné un breakpoint. Explorá el valor de las variables en tiempo real.  
+</p>
+<p>
+🧱 Paso 5: Identificar y corregir errores de CSS/HTML
+En DevTools > pestaña Elements, seleccioná un elemento roto.
+
+Mirá si el CSS se aplica o está tachado.
+
+Modificá el CSS directamente en el navegador para probar.
+
+Fijate en la consola si hay errores de HTML también.
+
+📌 Ejercicio: Rompé un estilo a propósito (escribí color: rde;) y corregilo desde DevTools.   
+</p>
+<p>
+    🌐 Paso 6: Usar la pestaña Network para depurar recursos
+DevTools > pestaña Network.
+
+Recargá la página y observá:
+
+Recursos que no cargan (404).
+
+Archivos lentos (rojo).
+
+Clic en un archivo para ver cabeceras, tipo, tamaño, etc.
+
+📌 Ejercicio: Probá cargar una imagen con una URL mal escrita y encontrá el error en "Network".
+</p>
+<p>🔁 Paso 7: Practicar debugueando proyectos reales
+Ideas:
+
+Buscá errores en tus propios proyectos.
+
+Modificá ejemplos de internet y rompé cosas a propósito.
+
+Usá plataformas como CodePen o JSFiddle para experimentar.</p>
+<p>
+💼 BONUS: Habilidades clave para debugear mejor
+✅ Ser paciente y curioso
+✅ Leer errores cuidadosamente
+✅ Pensar en pequeños pasos
+✅ No adivinar: probar con lógica  
+</p>
+</body>
+</html>

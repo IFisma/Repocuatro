@@ -1,6 +1,10 @@
     body{
-        background-color: blueviolet;
+        background-color:gray;
+        
     }
+    p{color: aliceblue;
+    background-color: black;}
+    
     .tarjeta{
         border: 4px solid black;
         margin:0;
@@ -29,3 +33,4 @@
         width: 150px;
         height: 150px;
     }
+    

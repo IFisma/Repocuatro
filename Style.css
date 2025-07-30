@@ -33,4 +33,17 @@
         width: 150px;
         height: 150px;
     }
-    
+    a:visited {
+    color: blue:
+}
+.tags{
+    background-color: cadetblue;
+}
+p,li{
+    text-align: center;
+}
+.tags{
+    display: flex;
+    padding: 0%;
+    gap: 20px;
+}

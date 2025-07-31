@@ -3,7 +3,7 @@
         
     }
     p{color: aliceblue;
-    background-color: black;}
+    background-color:gray;}
     
     .tarjeta{
         border: 4px solid black;
@@ -26,7 +26,7 @@
     }
     .tres:hover{
         background-color: aliceblue;
-        color:black;
+        color:gray;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     img{
@@ -38,12 +38,13 @@
 }
 .tags{
     background-color: cadetblue;
+    
 }
-p,li{
+li{
     text-align: center;
+    display: inline-block;
+    margin-right: 20px;
 }
-.tags{
-    display: flex;
-    padding: 0%;
-    gap: 20px;
+a{
+    flex-direction: row-reverse;
 }
